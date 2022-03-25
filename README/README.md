@@ -95,8 +95,11 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to /etc/ansible to check that the installation worked as expected.
 
 playbook file: install-elk1.yml copy to /etc/ansible folder
+
 To make Ansible run the playbook on a specific machine you must update the 'Hosts' file to include the addresses of your target machine
+
 To specify which machine to install ELK on vs Filebeat you run playbooks as such:
 ansible-playbook install-elk1.yml elk
 ansible-playbook filebeat-playbook.yml webservers
+
 To verify ELK is running navagate to 'elk-server-publicip:5601/app/kibana'
