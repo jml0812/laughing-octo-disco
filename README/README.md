@@ -69,12 +69,12 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-WEB 1 10.1.0.5
-WEB 2 10.1.0.6
+- WEB 1 10.1.0.5
+- WEB 2 10.1.0.6
 
 We have installed the following Beats on these machines:
-Filebeat
-Metricbeat
+- Filebeat
+- Metricbeat
 
 These Beats allow us to collect the following information from each machine:
 Filebeat: Detects changes to our filesystem. We are using it to collect Apache logs
@@ -87,10 +87,10 @@ SSH into the control node and follow the steps below:
 - Copy the playbooks file to Ansible Control Node.
 - Update the hosts file to include
 	- [webservers]
-	- 10.1.0.5
-	- 10.1.0.6
+	-- 10.1.0.5
+	-- 10.1.0.6
 	- [elk]
-	- 10.0.0.4
+	-- 10.0.0.4
 	
 - Run the playbook, and navigate to /etc/ansible to check that the installation worked as expected.
 
