@@ -65,7 +65,7 @@ The playbook implements the following tasks:
 -Third step is to download and launch the elk container
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-C:\Users\Joe Levesque\Desktop\WK13_Project\README\Images\WK13_capture.png
+![](https://github.com/jml0812/laughing-octo-disco/blob/main/README/Images/WK13_capture.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
