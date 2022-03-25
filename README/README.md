@@ -29,7 +29,6 @@ Filebeat watches system logs for changes to file systems
 Metricbeat records system metrics for things such as CPU usage, attempted SSH logins and sudo escalation failures
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 |       Name     | Function | IP Address | Operating System |
 |----------------|----------|------------|------------------|
@@ -95,7 +94,6 @@ SSH into the control node and follow the steps below:
 	
 - Run the playbook, and navigate to /etc/ansible to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
 playbook file: install-elk1.yml copy to /etc/ansible folder
 To make Ansible run the playbook on a specific machine you must update the 'Hosts' file to include the addresses of your target machine
 To specify which machine to install ELK on vs Filebeat you run playbooks as such:
